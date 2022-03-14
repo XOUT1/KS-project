@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Montserrat:ital,wght@0,500;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,100&display=swap');
+
+
+* {   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(../img/bg-blur.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;   
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 50%;
+}
+
+
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 12px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(251, 255, 0);
+    background: url(../img/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+h3 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    position: relative;
+    margin: 3px 0;
+}
+
+.about-kunil p {
+        color: rgb(5, 5, 5);
+        position: absolute;
+        font-family: 'Headland One';
+        left: 250px;
+        font-size: 20px;
+        padding: 70px;
+        width: calc(72% - 100px);     
+}
+
+.mission-kunil h1 {
+    font-family: 'Poppins', sans-serif !important;
+    color: rgb(255, 0, 0);
+    position: absolute;
+    left: 400px;
+    font-size: 30px;
+    padding: 200px;
+    width: calc(90% - 100px)
+}
+
+
+.mission-kunil p {
+    color: rgb(5, 5, 5);
+    font-family: 'Headland One';
+    position: absolute;
+    left: 170px;
+    font-size: 100%;
+    padding: 240px;
+    width: calc(95% - 100px);
+}
+
+marquee {
+    width: 100%;
+    height: 20px;
+}
+
+.selected {
+    color: rgb(229, 255, 0);
+}
+
+.table {
+    width: 700px;
+    margin: auto;
+    table-layout: fixed;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);  
+    padding: 9%;
+}
+table, th, td {
+    border: 1px dotted black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+th {
+    color: black;
+    background: rgb(46, 154, 255);
+}
+td {
+    background: rgba(72, 234, 255, 0.466);
+}
+
+h4 {
+    color: rgba(255, 0, 0, 0.836);
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 30px;
+    position: relative;
+    margin: 40px 38%;
+    width: calc(55% - 99px)
+}
+
+
