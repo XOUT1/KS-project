@@ -19,7 +19,7 @@
     position: relative;
 }
 
-nav {
+.container nav {
     display: flex;
     width: 100%;
     align-items: center;
@@ -164,8 +164,115 @@ h4 {
     font-family: 'Poppins', sans-serif !important;
     font-size: 30px;
     position: relative;
-    margin: 40px 38%;
+    margin: 45px 44%;
     width: calc(55% - 99px)
 }
 
+h6 {
+    color: rgba(255, 0, 0, 0.836);
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 30px;
+    position: relative;
+    margin: 45px 36%;
+    width: calc(55% - 99px)
+}
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.gallery .image span {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.gallery .image {
+    width: calc(100% / 4);
+    padding: 7px;
+}
+
+.gallery .image img {
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+
+.gallery .image:hover img {
+    transform: scale(1.1);
+}
+
+
+.dep-wrapper {
+    margin: 50px auto;
+    max-width: 1100px;
+    
+}
+
+.dep-wrapper .items {
+    display: flex;
+    max-width: 850px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.dep-wrapper nav {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+
+.dep-wrapper nav .items .item{
+    padding: 7px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dep-wrapper nav .items .active,
+.dep-wrapper nav .items .item:hover {
+    color: #fff;
+    background: #007bff;
+}
+
+.dep-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.dep-gallery .image span {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dep-gallery .image {
+    width: calc(100% / 4);
+    padding: 7px;
+}
+
+.dep-gallery .image img {
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+
+.dep-gallery .image:hover img {
+    transform: scale(1.1);
+}
+
+.address1 h3 {
+    font-size: large;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 20px;
+    color: #ff1e00de;
+    font-size: 30px;
+}
