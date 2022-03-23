@@ -11,10 +11,12 @@
 
 .container {
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(../img/bg-blur.jpeg);
+    height: 150vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.541),transparent),url(../img/bg-blur.jpeg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
     padding: 0 8%;
     position: relative;
 }
@@ -141,7 +143,7 @@ marquee {
     margin: auto;
     table-layout: fixed;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 400px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);  
     padding: 9%;
@@ -156,7 +158,7 @@ th {
     background: rgb(46, 154, 255);
 }
 td {
-    background: rgba(72, 234, 255, 0.466);
+    background: rgba(72, 234, 255, 0.555);
 }
 
 h4 {
@@ -173,7 +175,7 @@ h6 {
     font-family: 'Poppins', sans-serif !important;
     font-size: 30px;
     position: relative;
-    margin: 45px 36%;
+    margin: 400px 36%;
     width: calc(55% - 99px)
 }
 
@@ -275,4 +277,20 @@ h6 {
     font-size: 20px;
     color: #ff1e00de;
     font-size: 30px;
+}
+.address1 p {
+    padding: 8px;
+    font-style: oblique;
+    align-items: center;
+    text-align: center;
+}
+
+.table-head h1 {
+    font-family: 'Poppins', sans-serif !important;
+    color: rgb(255, 0, 0);
+    position: absolute;
+    left: 200px;
+    font-size: 30px;
+    padding: 350px;
+    width: calc(90% - 100px)
 }
