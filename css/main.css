@@ -275,6 +275,21 @@ h6 {
     transform: scale(1.1);
 }
 
+.dep-gallery .image.hide{
+    display: none;
+  }
+  .dep-gallery .image.show{
+    animation: animate 0.4s ease;
+  }
+  @keyframes animate {
+    0%{
+      transform: scale(0.5);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+
 .address1 h3 {
     font-size: large;
     font-family: 'Poppins', sans-serif !important;
